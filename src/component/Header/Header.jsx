@@ -25,22 +25,22 @@ const Header = () => {
     },
     {
       id: Math.floor(Math.random() * 1000),
-      path: "/servicetag",
+      path: "/habot/find-service",
       menu: "find service tags",
       submenu: [
         {
           id: Math.floor(Math.random() * 1000),
-          path: "/submenu1",
+          path: "/habot/submenu1",
           menu: "submenu 1",
         },
         {
           id: Math.floor(Math.random() * 1000),
-          path: "/submenu2",
+          path: "/habot/submenu2",
           menu: "submenu 2",
         },
         {
           id: Math.floor(Math.random() * 1000),
-          path: "/submenu3",
+          path: "/habot/submenu3",
           menu: "submenu 3",
         },
       ]
