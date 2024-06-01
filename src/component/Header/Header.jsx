@@ -20,7 +20,7 @@ const Header = () => {
   const menuItem = [
     {
       id: Math.floor(Math.random() * 1000),
-      path: "/habot",
+      path: "/",
       menu: "find suppliers"
     },
     {
