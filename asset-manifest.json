@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/habot/static/css/main.be408111.css",
+    "main.js": "/habot/static/js/main.cc1984e8.js",
+    "static/js/453.412eb2a6.chunk.js": "/habot/static/js/453.412eb2a6.chunk.js",
+    "index.html": "/habot/index.html",
+    "main.be408111.css.map": "/habot/static/css/main.be408111.css.map",
+    "main.cc1984e8.js.map": "/habot/static/js/main.cc1984e8.js.map",
+    "453.412eb2a6.chunk.js.map": "/habot/static/js/453.412eb2a6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.be408111.css",
+    "static/js/main.cc1984e8.js"
+  ]
+}
