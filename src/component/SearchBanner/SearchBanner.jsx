@@ -4,7 +4,7 @@ const SearchBanner = () => {
   return (
     <>
       {/* banner-section start */}
-      <section className="searchBanner-section relative after:absolute after:content-[''] after:h-[100%] after:w-[100%] after-bg-gradient after:-z-[1] after:top-[0px] after:left-[0px] bg-cover py-[120px] z-[1] sm:bg-center" style={{ backgroundImage: 'url(../img/banner.png)' }}>
+      <section className="searchBanner-section relative after:absolute after:content-[''] after:h-[100%] after:w-[100%] after-bg-gradient after:-z-[1] after:top-[0px] after:left-[0px] bg-cover py-[120px] z-[1] sm:bg-center" style={{ backgroundImage: 'url(%PUBLIC_URL%/img/banner.png)' }}>
         <div className="container md:max-w-[800px]">
           <div className="row">
             <div className="content px-[15px]">
