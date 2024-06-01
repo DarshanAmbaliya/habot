@@ -9,7 +9,7 @@ function App() {
     <>
       <Header />
       <Routes>
-        <Route exact path="/" Component={Supplier}></Route>
+        <Route exact path="/habot" Component={Supplier}></Route>
       </Routes>
       <Footer />
     </>

@@ -20,7 +20,7 @@ const Header = () => {
   const menuItem = [
     {
       id: Math.floor(Math.random() * 1000),
-      path: "/",
+      path: "/habot",
       menu: "find suppliers"
     },
     {
@@ -53,7 +53,7 @@ const Header = () => {
           <div className="row">
             <div className="menubar flex flex-wrap justify-between items-center">
               <div className="logo w-[20%] md:w-[40%]">
-                <NavLink to="/" className="block img-link w-[181px] h-[36px] capitalize ss:w-[150px] ss:h-[35px] s:w-[125px] s:h-[30px] s-[350px]:w-[100px] s-[350px]:h-[25px]">
+                <NavLink to="/habot" className="block img-link w-[181px] h-[36px] capitalize ss:w-[150px] ss:h-[35px] s:w-[125px] s:h-[30px] s-[350px]:w-[100px] s-[350px]:h-[25px]">
                   <img src="../img/logo.png" className="block ss:h-[100%]" alt="" />
                 </NavLink>
               </div>
