@@ -1,13 +1,64 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.container {
+  max-width: 1316px;
+  margin: 0px auto;
+}
+
+.after-bg-gradient::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    to right,
+    #00264dbf,
+    #00264dbf,
+    #00264dbf
+  );
+  z-index: -1; /* Ensure it appears behind other content */
+}
+
+.tabselected {
+  border-bottom: 4px solid #EB7150;
+  color: #EB7150;
+}
+
+.tabActive {
+  opacity: 1 !important;
+  transition: all 0.2s;
+  visibility: visible !important;
+}
+
+.menuActive {
+  max-height: 108px !important;
+  overflow: visible !important;
+  background-color: white;
+  opacity: 1 !important;
+}
+
+.img-link {
+  border: none !important;
+}
+
+.no-scroll{
+  overflow: hidden;
+} 
+.active {
+  color: #EB7150;
+  border-bottom: 2px solid #EB7150;
+}
+
+.active::after {
+  display: none;
 }
