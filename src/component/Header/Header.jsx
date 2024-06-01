@@ -54,7 +54,7 @@ const Header = () => {
             <div className="menubar flex flex-wrap justify-between items-center">
               <div className="logo w-[20%] md:w-[40%]">
                 <NavLink to="/habot" className="block img-link w-[181px] h-[36px] capitalize ss:w-[150px] ss:h-[35px] s:w-[125px] s:h-[30px] s-[350px]:w-[100px] s-[350px]:h-[25px]">
-                  <img src="%PUBLIC_URL%/img/logo.png" className="block ss:h-[100%]" alt="" />
+                  <img src={process.env.PUBLIC_URL + '/img/logo.png'} className="block ss:h-[100%]" alt="" />
                 </NavLink>
               </div>
               
