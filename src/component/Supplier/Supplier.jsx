@@ -257,7 +257,7 @@ const Supplier = () => {
                                 const {id, step} = val;
                                 return (
                                   <li className="flex gap-[9px] py-[4px]" key={id}>
-                                    <span className="mt-[8px]">
+                                    <span className="mt-[6.5px]">
                                       <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <g clip-path="url(#clip0_984_17)">
                                           <path d="M9 18C13.9706 18 18 13.9706 18 9C18 4.02944 13.9706 0 9 0C4.02944 0 0 4.02944 0 9C0 13.9706 4.02944 18 9 18Z" fill="#32BA7C" />
@@ -291,7 +291,7 @@ const Supplier = () => {
                                 const {id, step} = val;
                                 return (
                                   <li className="flex gap-[9px] py-[4px]" key={id}>
-                                    <span className="mt-[8px]">
+                                    <span className="mt-[6.5px]">
                                       <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <g clip-path="url(#clip0_984_17)">
                                           <path d="M9 18C13.9706 18 18 13.9706 18 9C18 4.02944 13.9706 0 9 0C4.02944 0 0 4.02944 0 9C0 13.9706 4.02944 18 9 18Z" fill="#32BA7C" />
