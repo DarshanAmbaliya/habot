@@ -46,7 +46,7 @@ const SearchBanner = () => {
               </form>
               <div className="addition-link flex flex-wrap gap-[8px] justify-center ss:gap-[2px]">
                 <p className="text-white font-bold">Are you a buyer?</p>
-                <a href="#" className="text-white border-b-2 border-white-500">Click here if you are looking to post a requirements</a>
+                <a href="#" className="text-white border-b-2 border-white-500 xs:text-[12.5px]">Click here if you are looking to post a requirements</a>
               </div>
             </div>
           </div>

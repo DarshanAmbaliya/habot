@@ -214,8 +214,8 @@ const Supplier = () => {
               <div className="box w-[40%] px-[15px] pt-[20px] md:w-[100%] sm:px-[0px]">
                 <div className="content">
                   <div className="tabBar flex flex-wrap">
-                    <label for="seller" onClick={() => setSelectedTab('buyer')} className={`cursor-pointer w-[50%] text-[26px] font-bold py-[6px] px-[66px] border-b-[4px] border-transparent duration-200 ${selectedTab === 'buyer' ? `tabselected` : 'text-white'} sm:text-[20px] ss:px-[30px]`}>Buyer</label>
-                    <label for="seller" onClick={() => setSelectedTab('seller')} className={`cursor-pointer w-[50%] text-[26px] font-bold py-[6px] px-[66px] border-b-[4px] border-transparent duration-200 ${selectedTab === 'seller' ? `tabselected` : 'text-white'} sm:text-[20px] ss:px-[30px]`}>Supplier</label>
+                    <label for="seller" onClick={() => setSelectedTab('buyer')} className={`cursor-pointer w-[50%] text-[26px] font-bold py-[6px] text-center border-b-[4px] border-transparent duration-200 ${selectedTab === 'buyer' ? `tabselected` : 'text-white'} sm:text-[20px] ss:px-[30px]`}>Buyer</label>
+                    <label for="seller" onClick={() => setSelectedTab('seller')} className={`cursor-pointer w-[50%] text-[26px] font-bold py-[6px] text-center border-b-[4px] border-transparent duration-200 ${selectedTab === 'seller' ? `tabselected` : 'text-white'} sm:text-[20px] ss:px-[30px]`}>Supplier</label>
                   </div>
 
                   <div className="tabContent py-[35px] sm:pt-[20px] sm:pb-[0px]">
