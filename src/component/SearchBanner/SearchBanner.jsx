@@ -10,7 +10,7 @@ const SearchBanner = () => {
             <div className="content px-[15px]">
               <div className="main-heading text-center text-[55px] leading-[66px] xs:text-[26px] sm:leading-[50px] md:text-[50px] xs:text-[22px] ss:leading-[40px]">
                 <h2 className="font-bold text-white sm:text-[40px] xs:text-[34px]">Are You a Supplier?</h2>
-                <span className="text-white capitalize sm:text-[40px] xs:text-[26px]">explore matching oppotunities.</span>
+                <span className="text-white capitalize sm:text-[40px] xs:text-[26px] ss:text-[24px]">explore matching oppotunities.</span>
               </div>
               <form action="" className="flex flex-wrap gap-[12px] items-center justify-center py-[40px] sm:py-[20px]">
                 <div className="inputbox flex items-center bg-[white] w-[30%] px-[20px] rounded-[5px] xs:w-[100%] sm-670:w-[100%] md:w-[49%]">
