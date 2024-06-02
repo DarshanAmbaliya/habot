@@ -140,7 +140,7 @@ const Supplier = () => {
       {/* searchbanner section end */}
 
       {/* about-section start */}
-      <section className="about-section py-[60px]">
+      <section className="about-section py-[90px]">
         <div className="container md:max-w-[800px]">
           <div className="row">
             <div className="main-box flex flex-wrap justify-between">
@@ -153,7 +153,7 @@ const Supplier = () => {
                     <p>Signing up with HABOT opens the door to a world of new opportunities and potential for business growth. Gain access to a vibrant community of like-minded individuals, unlock valuable resources, and take the first step towards realizing your entrepreneurial dreams.</p>
                   </div>
                   <div className="btn relative inline-block text-white font-bold">
-                    <a href="" className="inline-block text-[18px] pr-[100px] pl-[70px] py-[15px] bg-[#00732F] rounded">Sign up Today !</a>
+                    <a href="#" className="inline-block text-[18px] pr-[100px] pl-[70px] py-[15px] bg-[#00732F] rounded">Sign up Today !</a>
                     <svg className="absolute top-[50%] right-[10%] translate-y-[-50%]" width="32" height="17" viewBox="0 0 32 17" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <path d="M31.7885 7.52684L24.5159 0.254223C24.2547 -0.050834 23.7956 -0.0863957 23.4905 0.174912C23.1855 0.436157 23.1499 0.895274 23.4112 1.20033C23.4356 1.22877 23.4621 1.25533 23.4905 1.27964L29.5195 7.31591H0.727237C0.325619 7.31591 0 7.64153 0 8.04321C0 8.44489 0.325619 8.77045 0.727237 8.77045H29.5195L23.4905 14.7994C23.1855 15.0606 23.1499 15.5198 23.4112 15.8248C23.6725 16.1299 24.1316 16.1654 24.4366 15.9041C24.4651 15.8798 24.4916 15.8533 24.5159 15.8248L31.7886 8.5522C32.0705 8.26864 32.0705 7.81052 31.7885 7.52684Z" fill="white" />
                     </svg>
@@ -170,7 +170,7 @@ const Supplier = () => {
                         return (
                           <>
                             <li className="w-[48%] text-center relative duration-300 sm:p-[10px] sm:w-[50%]" key={id}>
-                              <a href="" className="block text-[17px] hover:text-white hover:bg-[#E7760D] duration-300 py-[19px] border border-[#E7760D] rounded">{name}</a>
+                              <a href="#" className="block text-[17px] hover:text-white hover:bg-[#E7760D] duration-300 py-[19px] border border-[#E7760D] rounded">{name}</a>
                               <span className="absolute top-[50%] right-[10%] translate-y-[-50%] ss:hidden">
                                 <svg width="32" height="17" viewBox="0 0 32 17" fill="none" xmlns="http://www.w3.org/2000/svg">
                                   <path d="M31.7885 7.52684L24.5159 0.254223C24.2547 -0.050834 23.7956 -0.0863957 23.4905 0.174912C23.1855 0.436157 23.1499 0.895274 23.4112 1.20033C23.4356 1.22877 23.4621 1.25533 23.4905 1.27964L29.5195 7.31591H0.727237C0.325619 7.31591 0 7.64153 0 8.04321C0 8.44489 0.325619 8.77045 0.727237 8.77045H29.5195L23.4905 14.7994C23.1855 15.0606 23.1499 15.5198 23.4112 15.8248C23.6725 16.1299 24.1316 16.1654 24.4366 15.9041C24.4651 15.8798 24.4916 15.8533 24.5159 15.8248L31.7886 8.5522C32.0705 8.26864 32.0705 7.81052 31.7885 7.52684Z" fill="white" />
@@ -191,7 +191,7 @@ const Supplier = () => {
       {/* about-section end */}
 
       {/* video-section start */}
-      <section className="video-section py-[60px]">
+      <section className="video-section pb-[120px]">
         <div className="container md:max-w-[800px]">
           <div className="row">
             <div className="main-box rounded-[5px] flex flex-wrap justify-between px-[80px] py-[140px] bg-[#072F57] md:p-[50px] md:mx-[15px] xs:m-[0px] xs:px-[15px]">
@@ -359,21 +359,21 @@ const Supplier = () => {
       {/* getVerify section end */}
 
       {/* work-section start */}
-      <section className="work-section py-[120px]">
+      <section className="work-section py-[120px] xs:pb-[75px]">
         <div className="container md:max-w-[800px]">
           <div className="row">
             <div className="main-heading text-center w-[60%] px-[15px] mx-[auto] md:w-[100%] ">
               <h2 className="font-bold text-[38px] pb-[15px] ss:text-[32px]">How it works?</h2>
               <p className="text-[17px]">Buyers post their needs and review top suppliers, while suppliers complete profiles, connect with potential buyers, and build successful business relationships, sharing valuable feedback.</p>
             </div>
-            <div className="main-box flex flex-wrap px-[80px] pt-[60px] text-[20px] text-center md:px-[15px] md:[&>*:nth-child(1)]:bg-[#E8FBFF] md:[&>*:nth-child(4)]:bg-[#E8FBFF] md:[&>*:nth-child(5)]:bg-[#E8FBFF] xs:[&>*:nth-child(5)]:bg-[#E8FBFF] xs:[&>*:nth-child(5)]:bg-[#E8FBFF] xs:[&>*:nth-child(4)]:bg-[white] xs:[&>*:nth-child(3)]:bg-[#E8FBFF] xs:text-[18px]">
+            <div className="main-box flex flex-wrap px-[60px] pt-[60px] text-[20px] text-center md:px-[15px] md:[&>*:nth-child(1)]:bg-[#E8FBFF] md:[&>*:nth-child(4)]:bg-[#E8FBFF] md:[&>*:nth-child(5)]:bg-[#E8FBFF] xs:[&>*:nth-child(5)]:bg-[#E8FBFF] xs:[&>*:nth-child(5)]:bg-[#E8FBFF] xs:[&>*:nth-child(4)]:bg-[white] xs:[&>*:nth-child(3)]:bg-[#E8FBFF] xs:text-[18px]">
               {
                 workItem.map((val) => {
                   const { id, img, title } = val;
 
                   return (
                     <>
-                      <div className="box odd:bg-[#E8FBFF] w-[33.33%] px-[70px] py-[45px] font-[500] md:w-[50%] md:odd:bg-[white] sm:px-[30px] xs:px-[20px] xs:w-[100%] xs:rounded-[8px] xs:odd:bg-[white]" key={id}>
+                      <div className="box odd:bg-[#E8FBFF] w-[33.33%] px-[60px] py-[45px] font-[500] md:w-[50%] md:odd:bg-[white] sm:px-[30px] xs:px-[20px] xs:w-[100%] xs:rounded-[8px] xs:odd:bg-[white]" key={id}>
                         <div className="content">
                           <div className="image flex justify-center">
                             {img}

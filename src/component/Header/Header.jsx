@@ -117,7 +117,7 @@ const Header = () => {
                 </div>
 
                 <div className="btn px-[20px] s:px-[5px]">
-                  <NavLink to='/form' className="capitalize font-bold duration-300 text-green-700 block px-[42px] py-[12px] border border-[#00732F] rounded xs:px-[18px] xs:py-[10px] hover:bg-[#00732F] hover:text-[white] s:py-[8px] s:px-[10px] s-[350px]:text-[13px] s-[350px]:py-[7px]">login/sign up</NavLink>
+                  <a href="#" className="capitalize font-bold duration-300 text-green-700 block px-[42px] py-[12px] border border-[#00732F] rounded xs:px-[18px] xs:py-[10px] hover:bg-[#00732F] hover:text-[white] s:py-[8px] s:px-[10px] s-[350px]:text-[13px] s-[350px]:py-[7px]">login/sign up</a>
                 </div>
 
                 <div className="hamburgerMenu hidden md:block" onClick={menuOpen}>

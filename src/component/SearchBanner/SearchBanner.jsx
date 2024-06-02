@@ -8,9 +8,9 @@ const SearchBanner = () => {
         <div className="container md:max-w-[800px]">
           <div className="row">
             <div className="content px-[15px]">
-              <div className="main-heading text-center text-[55px] leading-[66px] xs:text-[26px] sm:leading-[50px] md:text-[48px] ss:text-[22px]">
-                <h2 className="font-bold text-white sm:text-[36px] ss:text-[26px]">Are You a Supplier?</h2>
-                <span className="text-white capitalize sm:text-[36px] ss:text-[26px]">explore matching oppotunities.</span>
+              <div className="main-heading text-center text-[55px] leading-[66px] xs:text-[26px] sm:leading-[50px] md:text-[50px] xs:text-[22px] ss:leading-[40px]">
+                <h2 className="font-bold text-white sm:text-[40px] xs:text-[34px]">Are You a Supplier?</h2>
+                <span className="text-white capitalize sm:text-[40px] xs:text-[26px]">explore matching oppotunities.</span>
               </div>
               <form action="" className="flex flex-wrap gap-[12px] items-center justify-center py-[40px] sm:py-[20px]">
                 <div className="inputbox flex items-center bg-[white] w-[30%] px-[20px] rounded-[5px] xs:w-[100%] sm-670:w-[100%] md:w-[49%]">
@@ -41,12 +41,12 @@ const SearchBanner = () => {
                   <input type="text" className="focus:outline-none rounded py-[16px] w-[100%] sm:py-[12px]" placeholder="Search your desired location here" />
                 </div>
                 <div className="btn">
-                  <a href="" className="block font-bold text-white px-[35px] py-[16px] bg-[#00732F] rounded  sm:py-[12px] md:px-[45px]">Search</a>
+                  <a href="#" className="block font-bold text-white px-[35px] py-[16px] bg-[#00732F] rounded  sm:py-[12px] md:px-[45px]">Search</a>
                 </div>
               </form>
               <div className="addition-link flex flex-wrap gap-[8px] justify-center ss:gap-[2px]">
                 <p className="text-white font-bold">Are you a buyer?</p>
-                <a href="" className="text-white border-b-2 border-white-500">Click here if you are looking to post a requirements</a>
+                <a href="#" className="text-white border-b-2 border-white-500">Click here if you are looking to post a requirements</a>
               </div>
             </div>
           </div>
