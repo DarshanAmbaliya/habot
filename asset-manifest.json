@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/habot/static/css/main.52ac1048.css",
-    "main.js": "/habot/static/js/main.857e98df.js",
+    "main.css": "/habot/static/css/main.b8a3b0de.css",
+    "main.js": "/habot/static/js/main.3be49f8d.js",
     "static/js/453.412eb2a6.chunk.js": "/habot/static/js/453.412eb2a6.chunk.js",
     "index.html": "/habot/index.html",
-    "main.52ac1048.css.map": "/habot/static/css/main.52ac1048.css.map",
-    "main.857e98df.js.map": "/habot/static/js/main.857e98df.js.map",
+    "main.b8a3b0de.css.map": "/habot/static/css/main.b8a3b0de.css.map",
+    "main.3be49f8d.js.map": "/habot/static/js/main.3be49f8d.js.map",
     "453.412eb2a6.chunk.js.map": "/habot/static/js/453.412eb2a6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.52ac1048.css",
-    "static/js/main.857e98df.js"
+    "static/css/main.b8a3b0de.css",
+    "static/js/main.3be49f8d.js"
   ]
 }
